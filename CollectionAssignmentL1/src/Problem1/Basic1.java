@@ -50,11 +50,6 @@ public class Basic1 {
 		System.out.println("Enter String Value to add in map - ");
 		String val = sc.nextLine();
 		
-		mapforValues.put(1, "Java");
-		mapforValues.put(2, "Salesforce");
-		mapforValues.put(3, "SQL");
-		mapforValues.put(4, "AWS");
-		
 		mapforValues.put(key,val);
 		System.out.println("Inserted In Map.");
 		

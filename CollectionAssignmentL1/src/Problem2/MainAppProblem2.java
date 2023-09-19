@@ -57,7 +57,7 @@ public class MainAppProblem2 {
 		int accountNumber = new Random().nextInt(1000);
 		
 		System.out.println("Enter Account Holder Name - ");
-		String accountHolderName = scan.nextLine();
+		String accountHolderName = sc.nextLine();
 		
 		System.out.println("Enter Account Balance - ");
 		int accountBalance = scan.nextInt();
